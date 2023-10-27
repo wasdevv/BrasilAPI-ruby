@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2023_10_23_025540) do
+ActiveRecord::Schema[7.1].define(version: 2023_10_27_210646) do
   create_table "addresses", force: :cascade do |t|
     t.string "cep"
     t.string "logradouro"
@@ -26,6 +26,7 @@ ActiveRecord::Schema[7.1].define(version: 2023_10_23_025540) do
     t.boolean "erro"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "zip_code"
   end
 
 end

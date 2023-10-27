@@ -53,7 +53,7 @@ class Api::V1::AddressesController < ApplicationController
 
         # Vai procurar o CEP pelo ZIP_CODE, OU quando haver uma criação nova(CEP) no banco de dados 
         # Supostamente evitando CEPS duplicados.
-        @address = Address.find_by(zip_code: zip_code) || Address.create!(zip_code: zip_code)
+        @address = Address.find_by(zip_code: zip_code)
 
         # Array simples com as URLS e nomes dos provedores de CEP
         cep_providers = [
