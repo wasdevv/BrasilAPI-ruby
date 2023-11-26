@@ -57,7 +57,6 @@ class Api::V1::AddressesController < ApplicationController
 
         # Array simples com as URLS e nomes dos provedores de CEP
         cep_providers = [
-            { url: "https://www.viacep.com.br/ws/#{zip_code}/json/", name: 'viacep' }, # Provedora viaCEP(A GEM ATUAL)
             { url: "https://brasilapi.com.br/api/cep/v1#{zip_code}/json", name: 'brasilapi' } # Provedora Teste da própria contribuição a BrasilAPI
         ]
     end

@@ -48,5 +48,4 @@ end
 
 gem 'ffi'
 
-gem 'via_cep', '~> 3.1', '>= 3.1.3'
 gem "byebug", "~> 11.1"
