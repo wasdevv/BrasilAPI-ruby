@@ -66,11 +66,3 @@ def self.fetch_from_remote(cep, url, service_provider = '' )
     end
 end
 ```
-
-## Autor
-<div align="center">
-
-| [<img src="https://github.com/dayvidemerson.png?size=115" width=115><br><sub>@dayvidemerson</sub>](https://github.com/dayvidemerson) |
-| :-: |
-
-</div>
