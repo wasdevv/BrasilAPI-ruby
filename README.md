@@ -30,7 +30,7 @@ Então os dados que vai vim remotamente da gem viaCEP.
 - Rails 7.1
 - Ruby 3.2.2
 
-## Busca
+## Busca de CEPS
 
 ```
 def self.fetch_from_remote(cep, url, service_provider = '' )
@@ -66,3 +66,11 @@ def self.fetch_from_remote(cep, url, service_provider = '' )
     end
 end
 ´´´
+
+## Autor
+<div align="center">
+
+| [<img src="https://github.com/dayvidemerson.png?size=115" width=115><br><sub>@dayvidemerson</sub>](https://github.com/dayvidemerson) |
+| :-: |
+
+</div>
