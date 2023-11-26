@@ -65,7 +65,7 @@ def self.fetch_from_remote(cep, url, service_provider = '' )
         )
     end
 end
-´´´
+```
 
 ## Autor
 <div align="center">
